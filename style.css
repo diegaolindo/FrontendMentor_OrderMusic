@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(177, 177, 227);
+ 
+}
+
+main .sumario {
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+main .sumario img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+main .sumario  h1{
+    padding: 15px;
+    color: #121280;
+}
+
+main .sumario p{ 
+    margin: 0px 17px 0px 17px;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+main .plano {
+    margin: 0px 17px 0px 17px;
+    
+}
+
+main .plano img {
+    padding-top: 20px;
+}
+
+main .plano h3   {
+    display: inline-block;
+    margin-left:  90px;
+    color: #121280;
+    text-decoration: underline;
+}
+
+main .plano h2 {
+    color: #0b0b4f;
+    font-weight: 1em;
+}
+
+main .preco {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+main .preco a {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #121280;
+}
+
+main .preco h3 {
+    margin-bottom: 10px;
+}
+
+main input[type="button"] {
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #121280;
+    font-weight: bolder;
+    width: 300px;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.608);
+}
+
+main input[type="button"]:hover {
+    background-color: #0b0b4f;
+    cursor: pointer;
+}
+
+main .sumario h4 {
+    padding: 20px 0px 20px 0px;
+    color: #9393d7dd;
+}
